@@ -3,7 +3,6 @@ from rest_framework.filters import SearchFilter
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet
-
 from titles.models import Title
 from users.permissions import IsAuthorOrReadOnly
 from .models import Review
