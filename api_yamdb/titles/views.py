@@ -3,14 +3,13 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, status, viewsets
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
-
 from users.permissions import IsAdminOrReadOnly
+
 from .filters import TitleFilterBackend
 from .mixins import CreateListDestroyViewSet
 from .models import Category, Genre, Title
-from .serializers import (
-    CategorySerializer, GenreSerializer, TitleSerializer, TitleWriteSerializer
-)
+from .serializers import (CategorySerializer, GenreSerializer, TitleSerializer,
+                          TitleWriteSerializer)
 
 
 class TitleViewSet(viewsets.ModelViewSet):
