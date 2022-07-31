@@ -61,7 +61,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 
-# Database2
+# Database
 
 DATABASES = {
     'default': {
