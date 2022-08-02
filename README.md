@@ -3,6 +3,7 @@
 ![workflow](https://github.com/single1709/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ## Адрес сервера, где запущен проект
 `51.250.21.44`
+
 ## Кратко о проекте
 Проект api_yamdb - реализация API для другого учебного проекта Yatube.
 API необходим для унифицированного доступа к функциям проекта Yatube.
